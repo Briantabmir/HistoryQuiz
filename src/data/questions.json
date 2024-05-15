@@ -1,0 +1,65 @@
+[
+    {
+        "question": "¿Quién descubrió América?",
+        "answers": [
+            {
+                "text": "Cristóbal Colón",
+                "isCorrect": true
+            },
+            {
+                "text": "Marco Polo",
+                "isCorrect": false
+            },
+            {
+                "text": "Vasco da Gama",
+                "isCorrect": false
+            },
+            {
+                "text": "Fernando de Magallanes",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "¿En qué año cayó el Muro de Berlín?",
+        "answers": [
+            {
+                "text": "1983",
+                "isCorrect": false
+            },
+            {
+                "text": "1989",
+                "isCorrect": true
+            },
+            {
+                "text": "1991",
+                "isCorrect": false
+            },
+            {
+                "text": "1995",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "¿Quién fue el primer emperador romano?",
+        "answers": [
+            {
+                "text": "Julio César",
+                "isCorrect": false
+            },
+            {
+                "text": "Augusto",
+                "isCorrect": true
+            },
+            {
+                "text": "Nerón",
+                "isCorrect": false
+            },
+            {
+                "text": "Calígula",
+                "isCorrect": false
+            }
+        ]
+    }
+]
