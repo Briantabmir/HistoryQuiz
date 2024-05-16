@@ -49,17 +49,7 @@ import React, { useState, useEffect } from 'react';
 function Question({ data, onAnswer }) {
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [isAnswered, setIsAnswered] = useState(false);
-    const [questionText, setQuestionText] = useState("");
-    const characterImage = '/src/assets/img/Component1.png'; // Asegúrate que la ruta está correcta
-
-    useEffect(() => {
-        let timer = setTimeout(() => {
-            if (questionText.length < data.question.length) {
-                setQuestionText(data.question.substring(0, questionText.length + 1));
-            }
-        }, 100); // Velocidad de la animación letra por letra
-        return () => clearTimeout(timer);
-    }, [questionText, data.question]);
+    const characterImage = '/src/assets/img/Component1.png'; // Ajusta esta ruta según la ubicación de tu imagen
 
     const handleAnswerClick = (isCorrect, answerText) => {
         setSelectedAnswer({ isCorrect, answerText });
@@ -76,7 +66,7 @@ function Question({ data, onAnswer }) {
             <div className="mb-4 flex justify-center items-center">
                 <img src={characterImage} alt="Character" className="w-28 h-34 mr-10 " />
                 <div className="speech-bubble bg-white p-3 rounded-lg shadow-lg max-w-xs">
-                    <p className="text-black text-lg font-semibold">{questionText}</p>
+                    <p className="text-black text-lg font-semibold">{data.question}</p>
                 </div>
             </div>
             <div className="grid grid-cols-2 gap-4 w-full px-4">
@@ -101,3 +91,5 @@ function Question({ data, onAnswer }) {
 }
 
 export default Question;
+
+

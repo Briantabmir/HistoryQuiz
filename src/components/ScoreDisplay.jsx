@@ -2,7 +2,7 @@ import React from 'react';
 
 function ScoreDisplay({ score, totalQuestions, onRestart }) {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+        <div className="flex flex-col items-center justify-center bg-gray-100 p-4 rounded-lg shadow-md">
             <h2 className="text-xl font-bold text-gray-800 mb-2">Resultado Final</h2>
             <p className="text-lg text-gray-700 mb-4">Has acertado {score} de {totalQuestions} preguntas.</p>
             <button
@@ -16,3 +16,4 @@ function ScoreDisplay({ score, totalQuestions, onRestart }) {
 }
 
 export default ScoreDisplay;
+

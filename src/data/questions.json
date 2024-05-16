@@ -21,28 +21,28 @@
         ]
     },
     {
-        "question": "¿En qué año cayó el Muro de Berlín?",
+        "question": "¿En qué año comenzó la Primera Guerra Mundial?",
         "answers": [
             {
-                "text": "1983",
-                "isCorrect": false
-            },
-            {
-                "text": "1989",
+                "text": "1914",
                 "isCorrect": true
             },
             {
-                "text": "1991",
+                "text": "1905",
                 "isCorrect": false
             },
             {
-                "text": "1995",
+                "text": "1923",
+                "isCorrect": false
+            },
+            {
+                "text": "1939",
                 "isCorrect": false
             }
         ]
     },
     {
-        "question": "¿Quién fue el primer emperador romano?",
+        "question": "¿Cuál fue el primer emperador de Roma?",
         "answers": [
             {
                 "text": "Julio César",
@@ -57,7 +57,154 @@
                 "isCorrect": false
             },
             {
-                "text": "Calígula",
+                "text": "Trajano",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "¿Qué evento marcó el fin de la Edad Media?",
+        "answers": [
+            {
+                "text": "La caída de Constantinopla",
+                "isCorrect": true
+            },
+            {
+                "text": "El descubrimiento de América",
+                "isCorrect": false
+            },
+            {
+                "text": "La Revolución Francesa",
+                "isCorrect": false
+            },
+            {
+                "text": "La invención de la imprenta",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "¿Quién fue el líder de la Revolución Rusa?",
+        "answers": [
+            {
+                "text": "Vladimir Lenin",
+                "isCorrect": true
+            },
+            {
+                "text": "Joseph Stalin",
+                "isCorrect": false
+            },
+            {
+                "text": "León Trotski",
+                "isCorrect": false
+            },
+            {
+                "text": "Nikolái Bukharin",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "¿En qué año cayó el Muro de Berlín?",
+        "answers": [
+            {
+                "text": "1989",
+                "isCorrect": true
+            },
+            {
+                "text": "1985",
+                "isCorrect": false
+            },
+            {
+                "text": "1991",
+                "isCorrect": false
+            },
+            {
+                "text": "1993",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "¿Quién fue el primer presidente de Estados Unidos?",
+        "answers": [
+            {
+                "text": "George Washington",
+                "isCorrect": true
+            },
+            {
+                "text": "Thomas Jefferson",
+                "isCorrect": false
+            },
+            {
+                "text": "John Adams",
+                "isCorrect": false
+            },
+            {
+                "text": "James Madison",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "¿Qué civilización construyó Machu Picchu?",
+        "answers": [
+            {
+                "text": "Inca",
+                "isCorrect": true
+            },
+            {
+                "text": "Maya",
+                "isCorrect": false
+            },
+            {
+                "text": "Azteca",
+                "isCorrect": false
+            },
+            {
+                "text": "Olmeca",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "¿Cuál fue el conflicto más largo del siglo XX?",
+        "answers": [
+            {
+                "text": "La Guerra Fría",
+                "isCorrect": true
+            },
+            {
+                "text": "La Segunda Guerra Mundial",
+                "isCorrect": false
+            },
+            {
+                "text": "La Guerra de Vietnam",
+                "isCorrect": false
+            },
+            {
+                "text": "La Guerra de Corea",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "¿Quién fue el faraón más famoso de Egipto?",
+        "answers": [
+            {
+                "text": "Tutankamón",
+                "isCorrect": true
+            },
+            {
+                "text": "Ramsés II",
+                "isCorrect": false
+            },
+            {
+                "text": "Cleopatra",
+                "isCorrect": false
+            },
+            {
+                "text": "Akenatón",
                 "isCorrect": false
             }
         ]
