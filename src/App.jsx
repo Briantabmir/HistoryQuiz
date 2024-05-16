@@ -20,7 +20,7 @@ function App() {
         className="absolute w-full h-full object-cover"
         ref={videoRef}
       >
-        <source src="/src/assets/img/fondoHistoria.mp4" type="video/mp4" />
+        <source src="/src/assets/img/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="relative z-10 flex flex-col justify-center items-center h-full">
